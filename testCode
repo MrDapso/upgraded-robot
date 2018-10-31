@@ -14,13 +14,7 @@ import javax.faces.event.ActionEvent;
 import javax.faces.model.ArrayDataModel;
 import javax.inject.Named;
 
-/**
- * Backing bean der JSF-Seite tbl_array.xhtml
- *
- * @author Wolfgang Lang
- * @version 1.2.1, 2017-08-20
- * @see     "Foliensatz zur Vorlesung"
- */
+
 @Named( "bar" )
 @SessionScoped
 public class MbArray implements Serializable {
